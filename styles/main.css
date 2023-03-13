@@ -12,6 +12,22 @@ body {
   color: #FFFFFF;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* repeating styles */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* header */
 
 header {
@@ -20,13 +36,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 
 nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  list-style-type: none;
   gap: 50px;
 }
 
@@ -35,7 +51,6 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-  text-decoration: none;
   color: #fff;
   font-weight: 600;
 }
@@ -49,5 +64,96 @@ nav ul li a div {
   padding: 5px 25px;
 }
 
-/* hero section */
+/* banner section */
 
+.banner {
+  padding-top: 10px;
+  padding-bottom: 80px~ ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  text-transform: capitalize;
+}
+
+.banner__text_desc {
+  width: 500px;
+}
+
+.banner__title {
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+
+.banner__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  margin-bottom: 30px;
+}
+
+.cta__btn {
+  padding: 19px 50px;
+  background: #A259FF;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.cta__btn:hover {
+  transform: scale(0.95);
+}
+
+.cta__btn div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.banner__list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.banner__item {
+  font-size: 23.99px;
+  line-height: 160%;  
+}
+
+.banner__span {
+  display: block;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+}
+
+.banner__img {
+  background: #3B3B3B;
+  border-radius: 20px;
+}
+
+.banner__desc {
+  padding: 22px 20px;
+}
+
+.banner__desc-title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.banner__desc_avatar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
