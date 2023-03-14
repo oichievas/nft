@@ -85,7 +85,7 @@ nav ul li a div {
 }
 
 .banner__text_desc {
-  width: 500px;
+  width: 50%;
 }
 
 .banner__title {
@@ -147,6 +147,7 @@ nav ul li a div {
 .banner__img {
   background: #3B3B3B;
   border-radius: 20px;
+  width: 50%;
 }
 
 .banner__desc {
